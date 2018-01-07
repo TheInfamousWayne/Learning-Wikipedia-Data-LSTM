@@ -101,7 +101,7 @@ class RNN:
         costs = []
         for i in range(epochs):
             t0 = datetime.now()
-            cost = []
+            cost = 0
             n_correct = 0
             n_total = 0
             X = shuffle(X)
